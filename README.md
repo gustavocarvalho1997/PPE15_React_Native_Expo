@@ -18,4 +18,5 @@ npm install nativewind tailwindcss@^3.4.17 react-native-reanimated@3.16.2 react-
 npx tailwind init
 npx expo customize metro.config.js
 npx expo start -c
+npm i @expo/vector-icons
 ```

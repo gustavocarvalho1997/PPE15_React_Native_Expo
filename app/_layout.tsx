@@ -1,8 +1,10 @@
 import { Stack } from "expo-router";
-import "../globals.css";
+import "../global.css";
 
 export default function RootLayout() {
-    <Stack>
-        
-    </Stack>
+    return (
+        <Stack initialRouteName="index">
+            <Stack.Screen name="index" options={{ headerShown: false }} />
+        </Stack>
+    );
 }
