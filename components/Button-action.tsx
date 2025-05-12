@@ -11,7 +11,7 @@ type Props = {
 export const ButtonAction = ({ icon, label, onPress, badge }: Props) => {
     return (
         <Pressable onPress={onPress} className="w-24 mx-1">
-            <View className="bg-gray-200 size-24 rounded-full justify-center items-center">
+            <View className="bg-gray-100 size-24 rounded-full justify-center items-center">
                 <Icon name={icon} size={24} color="black" />
             </View>
             {badge && (

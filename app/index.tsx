@@ -74,6 +74,16 @@ export default function Screen() {
                     </ButtonGeneral>
                 </View>
             </ScrollView>
+
+            <View className="h-1 bg-gray-100 mt-8" />
+
+            <ButtonCard title="Cartão de crédito" onPress={() => {}}>
+                <Text className="text-xl text-gray-500">Fatura atual</Text>
+                <Text className="text-2xl font-semibold">R$ 1.094,00</Text>
+                <Text className="text-xl text-gray-500">
+                    Limite disponível: R$ 5.000,00
+                </Text>
+            </ButtonCard>
             <StatusBar style="auto" />
         </ScrollView>
     );

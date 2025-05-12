@@ -7,7 +7,7 @@ type Props = {
 
 export const ButtonGeneral = ({ onPress, children }: Props) => {
     return (
-        <Pressable onPress={onPress} className="bg-gray-200 rounded-xl p-5">
+        <Pressable onPress={onPress} className="bg-gray-100 rounded-xl p-5">
             {children}
         </Pressable>
     );
