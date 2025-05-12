@@ -47,6 +47,33 @@ export default function Screen() {
                     </View>
                 </ButtonGeneral>
             </View>
+            <ScrollView
+                horizontal
+                showsHorizontalScrollIndicator={false}
+                className="px-3"
+            >
+                <View className="w-80 mr-4">
+                    <ButtonGeneral onPress={() => {}}>
+                        <View className="flex-row flex-wrap gap-x-1">
+                            <Text className="text-lg">Você tem</Text>
+                            <Text className="text-lg font-semibold">
+                                R$ 12.300,00
+                            </Text>
+                            <Text className="text-lg">
+                                disponíveis para empréstimo
+                            </Text>
+                        </View>
+                    </ButtonGeneral>
+                </View>
+                <View className="w-80">
+                    <ButtonGeneral onPress={() => {}}>
+                        <Text className="text-lg font-semibold text-nubank">
+                            Guarde seu dinheiro aqui
+                        </Text>
+                        <Text className="text-lg">Toque para saber mais</Text>
+                    </ButtonGeneral>
+                </View>
+            </ScrollView>
             <StatusBar style="auto" />
         </ScrollView>
     );
