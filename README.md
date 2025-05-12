@@ -1,11 +1,10 @@
-# Aplicativo de Cotação de Moedas
+# Aplicativo de reprodução de tela do Nubank com NativeWind
 
 ## Estrutura de telas do aplicativo
 
 ```bash
-Main Drawer
-├── Dólar Americano
-├── Euro
+Main Stack
+├── Reprodução de Tela Nubank
 ```
 
 ## Comandos utilizados durante o projeto
