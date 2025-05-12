@@ -1,9 +1,10 @@
-import { ScrollView, Text } from "react-native";
-
+import { ScrollView, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Header } from "../components/Header";
 import { ButtonCard } from "../components/Button-card";
 import { ButtonAction } from "../components/Button-action";
+import Icon from "@expo/vector-icons/FontAwesome6";
+import { ButtonGeneral } from "../components/Button-general";
 
 export default function Screen() {
     return (
@@ -36,6 +37,16 @@ export default function Screen() {
                     onPress={() => {}}
                 />
             </ScrollView>
+            <View className="px-4 py-6">
+                <ButtonGeneral onPress={() => {}}>
+                    <View className="flex-row items-center">
+                        <Icon name="credit-card" size={28} color="black" />
+                        <Text className="ml-4 text-lg font-semibold">
+                            Meus Cartões
+                        </Text>
+                    </View>
+                </ButtonGeneral>
+            </View>
             <StatusBar style="auto" />
         </ScrollView>
     );
