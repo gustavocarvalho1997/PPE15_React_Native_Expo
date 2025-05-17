@@ -1,10 +1,17 @@
-# Aplicativo de reprodução de tela do Nubank com NativeWind
+# Tab Index: Reprodução da tela principal do Nubank
+
+Reprodução da tela principal do aplicativo Nubank para colocar em prática o uso do NativeWind.
+
+# Tab To Do: Lista de tarefas
+
+Criação de uma lista de taredas simples, onde o usuário pode adicionar, remover e marcar como concluída as tarefas. Realizada com o intuito de praticar o react reanimated.
 
 ## Estrutura de telas do aplicativo
 
 ```bash
-Main Stack
-├── Reprodução de Tela Nubank
+Main Tab
+├── Index: Reprodução de Tela Nubank
+├── To Do: Lista de tarefas
 ```
 
 ## Comandos utilizados durante o projeto
@@ -18,4 +25,5 @@ npx tailwind init
 npx expo customize metro.config.js
 npx expo start -c
 npm i @expo/vector-icons
+npx expo install react-native-reanimated
 ```
