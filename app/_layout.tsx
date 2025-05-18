@@ -27,6 +27,17 @@ export default function RootLayout() {
                     ),
                 }}
             />
+            <Tabs.Screen
+                name="switch"
+                options={{
+                    headerShown: true,
+                    headerTitle: "Switch",
+                    tabBarLabel: "Switch",
+                    tabBarIcon: ({ color }) => (
+                        <Icon name="toggle-on" size={24} color={color} />
+                    ),
+                }}
+            />
         </Tabs>
     );
 }
