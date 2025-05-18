@@ -6,6 +6,10 @@ Reprodução da tela principal do aplicativo Nubank para colocar em prática o u
 
 Criação de uma lista de taredas simples, onde o usuário pode adicionar, remover e marcar como concluída as tarefas. Realizada com o intuito de praticar o react reanimated.
 
+# Tab Switch: Teste de animação construindo um switch
+
+Criação de um switch animado, onde o usuário pode alternar entre os estados de ligado e desligado. O objetivo é praticar animações com o react reanimated.
+
 ## Estrutura de telas do aplicativo
 
 ```bash
